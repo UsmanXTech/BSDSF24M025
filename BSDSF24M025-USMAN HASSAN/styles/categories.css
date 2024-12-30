@@ -1,0 +1,34 @@
+body {
+    background-color: #f4f4f4; /* Light background for the categories page */
+}
+
+/* Categories Section Styles */
+.categories {
+    padding: 20px;
+    text-align: center;
+}
+
+.categories h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.categories ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0;
+}
+
+.categories li {
+    margin: 10px 0; /* Space between categories */
+}
+
+.categories a {
+    text-decoration: none; /* Remove underline from links */
+    color: #007BFF; /* Link color */
+    font-size: 20px; /* Font size for links */
+    transition: color 0.3s; /* Transition for hover effect */
+}
+
+.categories a:hover {
+    color: #0056b3; /* Darker color on hover */
+}
