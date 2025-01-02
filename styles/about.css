@@ -2,13 +2,14 @@ body {
     background-color: #f4f4f4;
 }
 .about {
-    padding: 20px;
+    padding: 60px;
     text-align: center;
 }
 
 .about h1 {
     font-size: 32px;
     margin-bottom: 20px;
+    padding: 10px;
 }
 
 .about p {

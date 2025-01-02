@@ -27,7 +27,7 @@ label {
 }
 
 button {
-    background: linear-gradient(to right, #007BFF, #0056b3); 
+    background: linear-gradient(to right, #007BFF, red); 
     color: white;
     border: none;
     padding: 10px 15px;

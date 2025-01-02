@@ -1,34 +1,41 @@
 body {
-    background-color: #f4f4f4; /* Light background for the categories page */
-}
-
-/* Categories Section Styles */
-.categories {
-    padding: 20px;
-    text-align: center;
-}
-
-.categories h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.categories ul {
-    list-style-type: none; /* Remove default list styling */
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    margin: 0;
     padding: 0;
 }
 
+.categories {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.categories h1 {
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #333;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .categories li {
-    margin: 10px 0; /* Space between categories */
+    margin: 12px 0;
 }
 
 .categories a {
-    text-decoration: none; /* Remove underline from links */
-    color: #007BFF; /* Link color */
-    font-size: 20px; /* Font size for links */
-    transition: color 0.3s; /* Transition for hover effect */
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px;
+    transition: color 0.25s ease;
 }
 
 .categories a:hover {
-    color: #0056b3; /* Darker color on hover */
+    color: #004b8d;
 }
